@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="../assessment-01/scripts/scripts.js"></script>
+    <script>
+        function wordFunction2() {
+            document.getElementById("words").innerHTML = "It's a crazy bunch, but we love them!";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>The Callahan Family Dogs</h1>
+    </header>
+    <main>
+        <div>
+            <p id="script"></p>
+            <script>
+                document.getElementById("script").innerHTML = "Click the button to shrink the photo"
+            </script>
+            <button onclick="document.getElementById('dogs').style.width='400px'">Shrink</button>
+
+        </div>
+        <div>
+            <img src="../assessment-01/images/ellie.png" alt="Ellie" id="dogs">
+            <br>
+            <button onclick="document.getElementById('dogs').src='../assessment-01/images/ellie.png'">Ellie</button>
+            <button onclick="document.getElementById('dogs').src='../assessment-01/images/lip.png'">Lip</button>
+            <button onclick="document.getElementById('dogs').src='../assessment-01/images/dottie.png'">Dottie</button>
+        </div>
+        <div>
+            <p id="words"></p>
+            <script>
+                document.getElementById("words").innerHTML = "Ellie is 8, Lip is 5 and Dottie is 4.";
+            </script>
+            <button type="button" onclick='document.getElementById("words").innerHTML="Ellie is 8, Lip is 5 and Dottie is 4."'>Age</button>
+            <button type="button" onclick='wordFunction()'>Breed</button>
+            <button type="button" onclick='wordFunction2()'>Loves</button>
+            <p id="color"></p>
+            <script>
+                document.getElementById("color").innerHTML = 'Click the button to change the color of the font above!';
+            </script>
+            <button onclick="document.getElementById('words').style.color='white'">Color</button>
+            <button onclick="document.getElementById('dogs').style.display='block'">Show</button>
+            <button onclick="document.getElementById('dogs').style.display='none'">Hide</button>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;Samantha Davenport</p>
+    </footer>
+</body>
+
+</html>
