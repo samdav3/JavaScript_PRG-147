@@ -1,0 +1,82 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: gray;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary);
+}
+
+header {
+    min-height: 80px;
+    text-align: center;
+}
+
+button {
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: gray;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+input {
+    border: 2px solid darkgray;
+    color: black;
+    background-color: lightgray;
+}
+
+.s_options {
+    background-color: gray;
+    border: 1px solid white;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.d_options {
+    background-color: gray;
+    border: 1px solid white;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.des_options {
+    background-color: gray;
+    border: 1px solid white;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+option {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+}

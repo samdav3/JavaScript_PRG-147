@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="../html_menu/scripts/calculate.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Menu</h1>
+    </header>
+    <main class="container">
+        <form>
+            <div class="top">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname" width="50px"><br>
+            </div>
+            <div class="s_options">
+                <h3>Sandwich Options:</h3>
+                <select name="sandwich" id="options" value="01">
+                    <option></option>
+                    <option num="6" value="Cheeseburger(s)" id="options">Cheeseburger</option>
+                    <option num="6" value="Grilled Chicken(s)" id="options">Grilled Chicken</option>
+                    <option num="3" value="Grilled Cheese(s)" id="options">Grilled Cheese</option>
+                    <option num="5" value="Turkey Sub(s)" id="options">Turkey Sub</option>
+                    <option num="7" value="Italian Beef(s)" id="options">Italian Beef</option>
+                </select><br>
+                <h3>Quantity:</h3>
+                <select name="sandwich" id="quantity">
+                    <option></option>
+                    <option value="1">one</option>
+                    <option value="2">two</option>
+                    <option value="3">three</option>
+                </select><br>
+                <input type="button" onclick="Sandwich()" value="Submit" /><br>
+                <span id="stotal"></span>
+                <span id="atotal"></span><br>
+            </div>
+            <div class="d_options">
+                <h3>Drink Options:</h3>
+                <select name="drink" id="doptions" value="03">
+                    <option></option>
+                    <option num="2" value="Lemonade(s)" id="doptions">Lemonade</option>
+                    <option num="2" value="Coke(s)" id="doptions">Coke</option>
+                    <option num="2" value="Mtn Dew(s)" id="doptions">Mtn Dew</option>
+                    <option num="4" value="Beer(s)" id="doptions">Beer</option>
+                    <option num="6" value="Wine(s)" id="doptions">Wine</option>
+                </select><br>
+                <h3>Quantity:</h3>
+                <select name="drink" id="dquantity" value="04">
+                    <option></option>
+                    <option value="1">one</option>
+                    <option value="2">two</option>
+                    <option value="3">three</option>
+                </select><br>
+                <input type="button" onclick="Drink()" value="Submit" /><br>
+                <span id="dtotal"></span>
+                <span id="btotal"></span><br>
+            </div>
+            <div class="des_options">
+                <h3>Dessert Options:</h3>
+                <select name="dessert" id="ddoptions" value="05">
+                    <option></option>
+                    <option num="5" value="Key Lime Pie(s)" id="ddoptions">Key Lime Pie</option>
+                    <option num="5" value="Cheesecake(s)" id="ddoptions">Cheesecake</option>
+                    <option num="4" value="Hot Fudge Sundae(s)" id="ddoptions">Hot Fudge Sundae</option>
+                    <option num="3" value="Brownie(s)" id="ddoptions">Brownie</option>
+                    <option num="3" value="Chocolate Chip Cookie(s)" id="ddoptions">Chocolate Chip Cookie</option>
+                </select><br>
+                <h3>Quantity:</h3>
+                <select name="dessert" id="ddquantity" value="06">
+                    <option></option>
+                    <option value="1">one</option>
+                    <option value="2">two</option>
+                    <option value="3">three</option>
+                </select><br>
+                <input type="button" onclick="Dessert()" value="Submit" /><br>
+                <span id="des_total"></span><br>
+                <span id="ctotal"></span><br>
+            </div>
+            <br>
+            <div class="bottom ">
+                <button type="button" onclick="Summary()">Get Order Summary & Total!</button>
+                <h3>Your Order Summary:</h3>
+                <p id="summary"></p>
+                <p id="total"></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;Samantha Davenport</p>
+    </footer>
+</body>
+
+</html>
