@@ -25,7 +25,7 @@ document.getElementById("random2").innerHTML = random
     // comparisons paragraph
     let x = 3
     let y = "3"
-document.getElementById("comparisons").innerHTML = "The difference between == and === is that the == operator is comparing if the objects are equal to eachother. The === operator is comparing if the objects are of equal value and equal type." + "</br>" + "If x = 3 and y = '3'" + "</br>" + "(x==y) = " + (x==y) + "</br>" + "(x===y) = " + (x===y)
+document.getElementById("comparisons").innerHTML = "The difference between == and === is that the == operator is comparing if the objects are equal to eachother. The === operator is comparing if the objects are of equal value and equal type." + "</br>" + "If x = 3 and y =" + "</br>" + "(x==y) = " + (x==y) + "</br>" + "(x===y) = " + (x===y)
 
 
     // Conditions: https://www.w3schools.com/js/js_if_else.asp
