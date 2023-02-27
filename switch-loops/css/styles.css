@@ -1,0 +1,24 @@
+*{
+    text-align: left;
+    color: darkred;
+    background-color: whitesmoke;
+}
+button{
+    background-color: darkred;
+    border: none;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: darkred;
+    border: 1px solid darkgray;
+}
+h2{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+button{
+    margin-left: 46%;
+}
