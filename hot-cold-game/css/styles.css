@@ -1,0 +1,17 @@
+*{
+    color: whitesmoke;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+input{
+    background-color: whitesmoke;
+    color: black;
+}
+button{
+    background-color: whitesmoke;
+    color: black
+}

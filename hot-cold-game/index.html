@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot & Cold</title>
+    <link rel="stylesheet" href="../hot-cold-game/css/styles.css">
+    
+</head>
+<body onload="range()">
+    <div class="container"></div>
+    <header>
+        <h1>Hot & Cold Game</h1>
+        <h3>In this game, you will need to guess a number between 1 and 1000.</h3>
+        <p>When you guess a number, the game will tell you if you are getting closer or farther from the correct number.</p>
+    </header>
+    <main>
+        <div class="guesses">
+            <form>
+                <label for="guess">Make your guess!</label>
+                <input type="text" id="guess" width="5">
+                <button type="button" id="submit">Submit</button>
+            </form>
+            <div>
+                <p id="temp"></p>
+                <p id="correct"></p>
+            </div>
+        </div>        
+            <div class="range">
+                <p id="guessed"></p>
+                <p id="guessed2"></p>
+                <p id="range"></p>
+            </div>
+    </main>
+    </div>
+    <footer>
+        <p>&copy;Samantha Davenport</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

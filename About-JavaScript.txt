@@ -1,0 +1,36 @@
+Why would a developer include or use JavaScript on a website?
+Programming language of the web - front-end development
+Creates interactivity - can interact with a webpage  
+If you want to be able to interact with a webpage - if you want it to 
+React to something a user does
+Backend development 
+Run Databases 
+Automate photoshop 
+
+
+Where would you avoid JavaScript?
+If CSS can handle it - don't use JS
+For instance, hover events or focus events
+Animations - CSS handles this 
+Advanced Animation - CSS and JS together 
+HTML5 can do it better - range control, sliders - mobile platforms
+Wired to custom keyboards suited for types of emails or phone numbers
+
+What are the potential pitfalls of using JavaScript?
+Security risks (XSS)
+Image tags, object tags, inject JS into the site to load data
+Cross-site script attacks - inject JS that is not part of the site into visitors' browsers - the website can be defaced, site visitors' personal info being revealed or stolen
+
+Performance issues 
+Pull and display ads
+Tracking scripts 
+Large file sizes
+Long page load times
+Keep jS lean 
+Avoid using lots of scripts 
+
+The result of these issues is JS can be blocked
+Sometimes entirely often partially
+Content blockers on mobile and desktop browsers can try to block ads and tracking scripts from ever loading and some take more aggressive steps to try to protect user privacy 
+Institutional firewalls may block some or all of your JS and some users may opt-out and disable JS as a feature of their browsers
+
