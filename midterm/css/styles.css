@@ -1,0 +1,59 @@
+* {
+    background-color: whitesmoke;
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,
+h2 {
+    background-color: maroon;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#directions {
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-left: 120px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-left: 15px;
+    height: 15px;
+}
+
+button {
+    background-color: maroon;
+    color: whitesmoke;
+    padding: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: maroon;
+    border: 1px solid lightgray;
+}
+
+footer,
+#footer {
+    background-color: maroon;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#correct {
+    text-align: center;
+}

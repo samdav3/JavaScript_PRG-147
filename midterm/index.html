@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>The Number Game</h1>
+            <h2>Can your brain figure it out?</h2>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3>In this game, you will enter 4 of your favorite, or just plain random numbers.</h3>
+            <p id="directions">There are no limits!</p>
+            <p id="directions">The game will then ask you to guess which one of those 4 numbers has been randomly selected.</p>
+            <p id="directions">You will get hints along the way telling you if you are close or not.</p>
+            <p id="directions">Good luck!</p>
+        </div>
+        <div>
+            <div class="info">
+                <form>
+                    <label for="guess">Enter your name: </label>
+                    <input type="text" id="name" width="5">
+                    <button type="button" id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="number1">
+                <form>
+                    <label for="number1">What is your first number?</label>
+                    <input type="text" id="number1" width="5">
+                    <button type="button" id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="number2">
+                <form>
+                    <label for="number2">What is your second number?</label>
+                    <input type="text" id="number2" width="5">
+                    <button type="button" id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="number3">
+                <form>
+                    <label for="number3">What is your third number?</label>
+                    <input type="text" id="number3" width="5">
+                    <button type="button" id="submit">Submit</button>
+                </form>
+            </div>
+            <div class="number2">
+                <form>
+                    <label for="number4">What is your fourth number?</label>
+                    <input type="text" id="number4" width="5">
+                    <button type="button" id="submit">Submit</button>
+                </form>
+            </div>
+            <p> /* should i use js here to switch the form instead of having 4 forms? how can i do this? would it be along the lines of using a function for the onclick of the submit button to change the html of the label when they select the submit button?*/</p>
+        </div>
+        <div>
+            <p id="user-info">Hi, </p>
+            <p id="numbers">The numbers you have entered are: </p>
+        </div>
+        <div>
+            <p id="temp"></p>
+            <p id="correct"></p>
+        </div>
+        <div class="range">
+            <p id="guessed"></p>
+            <p id="guessed2">The numbers you have guessed are: </p>
+            <p id="range"></p>
+        </div>
+    </main>
+    <footer>
+        <p id="footer">&copy; Samantha Davenport</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
