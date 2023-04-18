@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+header {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+button {
+    background-color: lightgray;
+    color: whitesmoke;
+    border: none;
+    padding: 4px;
+    margin: 3px;
+    margin-left: 10px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: lightgray;
+    border: 2px solid lightgrey;
+}
+
+footer {
+    text-align: center;
+    color: lightgray;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: lightgray;
+}
