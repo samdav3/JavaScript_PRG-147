@@ -1,0 +1,168 @@
+/* Color Theme Swatches in RGBA */
+
+.My-Color-Theme-1-rgba {
+    color: rgba(179, 125, 144, 1);
+}
+
+.My-Color-Theme-2-rgba {
+    color: rgba(115, 80, 92, 1);
+}
+
+.My-Color-Theme-3-rgba {
+    color: rgba(242, 170, 195, 1);
+}
+
+.My-Color-Theme-4-rgba {
+    color: rgba(255, 179, 205, 1);
+}
+
+.My-Color-Theme-5-rgba {
+    color: rgba(217, 152, 174, 1);
+}
+
+
+/* Color Theme Swatches in RGBA */
+
+.grey-1-rgba {
+    color: rgba(171, 179, 166, 1);
+}
+
+.grey-2-rgba {
+    color: rgba(110, 115, 107, 1);
+}
+
+.grey-3-rgba {
+    color: rgba(232, 243, 225, 1);
+}
+
+.grey-4-rgba {
+    color: rgba(244, 255, 237, 1);
+}
+
+.grey-5-rgba {
+    color: rgba(207, 217, 202, 1);
+}
+
+
+/* Color Theme Swatches in RGBA */
+
+.My-Color-Theme-1-rgba {
+    color: rgba(171, 157, 147, 1);
+}
+
+.My-Color-Theme-2-rgba {
+    color: rgba(107, 99, 92, 1);
+}
+
+.My-Color-Theme-3-rgba {
+    color: rgba(235, 216, 201, 1);
+}
+
+.My-Color-Theme-4-rgba {
+    color: rgba(247, 228, 213, 1);
+}
+
+.My-Color-Theme-5-rgba {
+    color: rgba(209, 193, 180, 1);
+}
+
+:root {
+    --background-color: rgba(247, 228, 213, 1);
+    --dark-pink: rgba(115, 80, 92, 1);
+    --green: rgba(171, 179, 166, 1);
+    --tan: rgba(235, 216, 201, 1);
+    --light-green: rgba(207, 217, 202, 1);
+}
+
+* {
+    text-align: center;
+    margin: 20px;
+    color: var(--dark-pink);
+}
+
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/23/05/33/flower-2336287_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    background-color: var(--dark-pink);
+    color: var(--background-color);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 24pt;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: var(--dark-pink);
+    font-size: 18pt;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--green);
+    font-size: larger;
+}
+
+#scroll {
+    font-size: x-small;
+    margin: 20px;
+}
+
+#images {
+    margin: 140px 140px 10px 140px;
+}
+
+#location {
+    color: var(--green);
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
+input[type="text"],
+input {
+    border: 2px solid var(--green);
+    padding: 5px;
+}
+
+#submit {
+    color: var(--dark-pink);
+    background-color: var(--light-green);
+    border: 2px solid var(--light-green);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: var(--dark-pink);
+    border: 2px solid var(--dark-pink);
+    color: var(--background-color);
+}
+
+#date {
+    color: var(--green);
+}
+
+#horizontal {
+    width: 600px;
+    height: 400px;
+    border: 10px solid var(--dark-pink);
+    border-radius: 15px;
+}
+
+#vertical {
+    height: 500px;
+    width: 360px;
+    border: 10px solid var(--dark-pink);
+    border-radius: 15px;
+}
