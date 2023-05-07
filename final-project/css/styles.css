@@ -135,7 +135,7 @@ input {
     padding: 5px;
 }
 
-#submit {
+button {
     color: var(--dark-pink);
     background-color: var(--light-green);
     border: 2px solid var(--light-green);
@@ -143,10 +143,14 @@ input {
     border-radius: 10px;
 }
 
-#submit:hover {
+button:hover {
     background-color: var(--dark-pink);
     border: 2px solid var(--dark-pink);
     color: var(--background-color);
+}
+
+#try-again {
+    display: none;
 }
 
 #date {

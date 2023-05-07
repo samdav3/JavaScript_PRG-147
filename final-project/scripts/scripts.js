@@ -21,13 +21,20 @@ $(document).ready(function() {
                 $("form").hide();
                 break;
             default:
-                $("#success").append("I'm sorry, we weren't able to accept that name, please try again!");
+                $("#error").append("I'm sorry, we weren't able to accept that name, please try again!");
                 $("#name").val("");
                 $("#name").css("background-color", "rgba(115, 80, 92, 1)");
+                $("#try-again").show();
+                $("form").hide();
                 break;
         }
-
     });
 
+    $("#try-again").click(function() {
+        event.preventDefault();
+        $("form").show();
+        $("#try-again").hide();
+        $("#error").hide();
+    });
 
 });
